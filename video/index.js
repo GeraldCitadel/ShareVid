@@ -23,9 +23,9 @@ app.use(cors())
 app.use('/api', router)
 
 
-app.get('/', (req, res) => {
-   res.send('API working')
-})
+// app.get('/', (req, res) => {
+//    res.send('API working')
+// })
 
 
 
