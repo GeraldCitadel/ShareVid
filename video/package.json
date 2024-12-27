@@ -6,10 +6,9 @@
     "main": "index.js",
     "scripts": {
         "build:frontend": "vite build",
-        "build:backend": "node build.js",
+        "build:backend": "node build",
         "dev": "concurrently \"vite \" \"nodemon index.js\"",
         "build": "npm run build:frontend",
-        "start": "node index.js",
         "lint": "eslint .",
         "preview": "vite preview",
         "server": "nodemon index.js"
